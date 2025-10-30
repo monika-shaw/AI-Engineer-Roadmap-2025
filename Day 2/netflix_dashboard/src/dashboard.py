@@ -1,6 +1,7 @@
 import os
 import streamlit as st
 from data_processing import load_data, clean_data, feature_engineering
+from visualizations import plot_type_distribution, plot_year_added_trend
 
 def main():
     st.title("Netflix Titles Dashboard")
@@ -15,6 +16,10 @@ def main():
 
     st.subheader("Raw Data Sample")
     st.dataframe(df.head(10))
+
+    st.subheader("Distribution: Movies vs TV Shows")
+    fig1 = plot_type_distribution(df)
+    st.pyplot(fig1)
 
 if __name__ == "__main__":
     main()
