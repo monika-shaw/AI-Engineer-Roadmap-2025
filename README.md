@@ -6,13 +6,13 @@
 
 | Day | Task & Focus |
 |-----|-------------|
-| ⭐️ **Day 1** | 🐍 **Kickstart Python:** Learn syntax, variables, & data types |
-| ✨ **Day 2** | 🔁 **Practice Core Concepts:** Work with arrays, loops, conditionals |
-| ⚡️ **Day 3** | 🧱 **Deep Dive:** Explore functions, OOP basics, modules |
-| 🖥️ **Day 4** | ⚙️ **Setup:** Install Jupyter Notebook & configure your environment |
-| 🚀 **Day 5** | 📦 **NumPy Time:** Dive into arrays and vectorized math |
-| 📚 **Day 6** | 🗂️ **Hello Pandas:** Load CSVs, inspect DataFrames, basic exploration |
-| 🏆 **Day 7** | 🚦 **Mini-Project:**<br>-  Analyze weather CSV data<br>-  Compute mean/max/min<br>-  **Build a Weather Data Anomaly Detector** (detect & plot temp outliers with Pandas & Matplotlib) |
+| ⭐️ **Day 0** | 🐍 **Kickstart Python:** Learn syntax, variables, & data types |
+|  | 🔁 **Practice Core Concepts:** Work with arrays, loops, conditionals |
+|  | 🧱 **Deep Dive:** Explore functions, OOP basics, modules |
+| 🏆 **Day 1** | ⚙️ **Setup:** Install Jupyter Notebook & configure your environment |
+|  | 📦 **NumPy Time:** Dive into arrays and vectorized math |
+|  | 🗂️ **Hello Pandas:** Load CSVs, inspect DataFrames, basic exploration |
+| | 🚦 **Mini-Project:**<br>-  Analyze weather CSV data<br>-  Compute mean/max/min<br>-  **Build a Weather Data Anomaly Detector** (detect & plot temp outliers with Pandas & Matplotlib) |
 
 ***
 
