@@ -13,19 +13,29 @@
 |  | 📦 **NumPy Time:** Dive into arrays and vectorized math |
 |  | 🗂️ **Hello Pandas:** Load CSVs, inspect DataFrames, basic exploration |
 | | 🚦 **Mini-Project:**<br>-  Analyze weather CSV data<br>-  Compute mean/max/min<br>-  **Build a Weather Data Anomaly Detector** (detect & plot temp outliers with Pandas & Matplotlib) |
+| 🎯 Day 2 | ⚙️ Focus: Data Handling and Visualization |
+|           | 📦 Pandas Practice: Learn DataFrames and perform data cleaning tasks. |
+|           | 🗂️ Data Visualization: Create plots using Matplotlib and Seaborn. |
+|           | 🚦 Mini-Project: |
+|           | - Project: Build a simple Netflix data dashboard. |  
+
 
 ***
 
-## 🧩 Week 2: Data Handling & Visualization
+# Folder Structure
+```plaintext
+Week-1-Python-for-AI/
+├── Day-0/
+│   ├── Python Syntax Basics
+│   ├── Arrays, Loops, Conditionals
+│   └── Functions, OOP, Modules
+├── Day-1/
+│   ├── Jupyter Setup
+│   ├── NumPy Basics
+│   ├── Pandas Basics
+│   └── Mini-Project: Weather Anomaly Detector
+└── Day-2/
+    ├── Pandas Data Cleaning
+    ├── Data Visualization (Matplotlib & Seaborn)
+    └── Mini-Project: Netflix Dashboard
 
-| Day | Task & Focus |
-|-----|-------------|
-| 🧼 **Day 8** | 🧹 **Data Cleaning:** Handle missing values, dropna/fillna |
-| 🔍 **Day 9** | 📊 **Inspect & Filter:** Query, filter, and slice Pandas DataFrames |
-| 📏 **Day 10** | 👀 **Summarize:** Aggregate, describe, discover statistics |
-| 🎨 **Day 11** | 📈 **Matplotlib Magic:** Plot line & scatter charts |
-| 🌈 **Day 12** | 🎉 **Seaborn Upgrade:** Stylish, advanced visualizations |
-| 🖥️ **Day 13** | 🖼️ **Dashboard Build:** Layout multi-plot dashboards, add interactivity |
-| 🎯 **Day 14** | 📊 **Project:** Create a dashboard showing weather trends & anomalies |
-
-***
