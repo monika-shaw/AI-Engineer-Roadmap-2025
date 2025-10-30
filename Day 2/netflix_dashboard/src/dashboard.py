@@ -21,5 +21,12 @@ def main():
     fig1 = plot_type_distribution(df)
     st.pyplot(fig1)
 
+    st.subheader("Trend: Titles Added Over Years")
+    if 'year_added' in df.columns:
+        fig2 = plot_year_added_trend(df)
+        st.pyplot(fig2)
+    else:
+        st.write("No `year_added` column found.")
+
 if __name__ == "__main__":
     main()
