@@ -21,6 +21,11 @@
 |  | 🧰 Sidebar Filters: Add interactive widgets to filter data |
 |  | 📊 Seaborn Insights: Create richer visualizations with Seaborn |
 |  | 🚦 Mini-Project:<br>- Enhance Netflix dashboard with filters & visual insights |
+| 🎛️ **Day 4** | 🧭 Focus: Focus: Maths & Linear Algebra |
+|  | 🧰 Concepts: Scalars, Vectors, Matrices, and Tensors |
+|  | Operations: Matrix addition, multiplication, transpose, and inverse|
+|  | 🚦 Mini-Project:<br>- Visualize vector and matrix operations using NumPy & Matplotlib |
+
 
 ***
 
