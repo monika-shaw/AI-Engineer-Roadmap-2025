@@ -33,5 +33,9 @@ def main():
     fig1 = plot_type_distribution(filtered_df)
     st.pyplot(fig1)
 
+    st.subheader("📆 Titles Added Over the Years")
+    fig2 = plot_year_added_trend(filtered_df)
+    st.pyplot(fig2)
+
 if __name__ == "__main__":
     main()
