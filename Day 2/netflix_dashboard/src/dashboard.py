@@ -2,7 +2,8 @@ import os
 import streamlit as st
 from data_processing import load_data, clean_data, feature_engineering
 from visualizations import plot_type_distribution, plot_year_added_trend
-
+import matplotlib.pyplot as plt
+import seaborn as sns
 def main():
     st.title("Netflix Titles Dashboard")
     st.markdown("Exploratory dashboard of Netflix Movies & TV Shows")
@@ -36,6 +37,15 @@ def main():
     st.subheader("📆 Titles Added Over the Years")
     fig2 = plot_year_added_trend(filtered_df)
     st.pyplot(fig2)
+
+    st.subheader("🌎 Top 10 Countries by Number of Titles")
+    top_countries = filtered_df["country"].value_counts().head(10)
+    fig3, ax = plt.subplots(figsize=(10, 6))
+    sns.barplot(x=top_countries.values, y=top_countries.index, palette="coolwarm", ax=ax)
+    ax.set_xlabel("Number of Titles")
+    ax.set_ylabel("Country")
+    ax.set_title("Top 10 Countries by Netflix Titles")
+    st.pyplot(fig3)
 
 if __name__ == "__main__":
     main()
