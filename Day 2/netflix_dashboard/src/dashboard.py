@@ -28,6 +28,10 @@ def main():
     st.subheader("📋 Filtered Dataset")
     st.write(f"Showing {len(filtered_df)} records after applying filters.")
     st.dataframe(filtered_df.head(10))
+    
+    st.subheader("🍿 Movies vs TV Shows")
+    fig1 = plot_type_distribution(filtered_df)
+    st.pyplot(fig1)
 
 if __name__ == "__main__":
     main()
