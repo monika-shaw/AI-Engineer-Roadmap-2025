@@ -25,5 +25,9 @@ def main():
         (df["release_year"].between(year_filter[0], year_filter[1]))
     ]
 
+    st.subheader("📋 Filtered Dataset")
+    st.write(f"Showing {len(filtered_df)} records after applying filters.")
+    st.dataframe(filtered_df.head(10))
+
 if __name__ == "__main__":
     main()
