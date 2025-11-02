@@ -47,5 +47,11 @@ def main():
     ax.set_title("Top 10 Countries by Netflix Titles")
     st.pyplot(fig3)
 
+    st.subheader("⭐ Rating Distribution")
+    fig4, ax = plt.subplots(figsize=(8, 6))
+    sns.countplot(y="rating", data=filtered_df, order=filtered_df["rating"].value_counts().index, palette="muted", ax=ax)
+    ax.set_title("Distribution of Ratings")
+    st.pyplot(fig4)
+
 if __name__ == "__main__":
     main()
