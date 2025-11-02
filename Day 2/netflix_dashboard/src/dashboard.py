@@ -19,6 +19,11 @@ def main():
     country_filter = st.sidebar.multiselect("Select Country:", options=sorted(df["country"].unique()), default=["United States"])
     year_filter = st.sidebar.slider("Select Year Range (Release):", int(df["release_year"].min()), int(df["release_year"].max()), (2010, 2020))
 
+    filtered_df = df[
+        (df["type"].isin(type_filter)) &
+        (df["country"].isin(country_filter)) &
+        (df["release_year"].between(year_filter[0], year_filter[1]))
+    ]
 
 if __name__ == "__main__":
     main()
