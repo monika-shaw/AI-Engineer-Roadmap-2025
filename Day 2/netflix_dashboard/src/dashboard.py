@@ -14,19 +14,11 @@ def main():
     df = clean_data(df)
     df = feature_engineering(df)
 
-    st.subheader("Raw Data Sample")
-    st.dataframe(df.head(10))
+    st.sidebar.header("🔍 Filter Options")
+    type_filter = st.sidebar.multiselect("Select Type:", options=df["type"].unique(), default=df["type"].unique())
+    country_filter = st.sidebar.multiselect("Select Country:", options=sorted(df["country"].unique()), default=["United States"])
+    year_filter = st.sidebar.slider("Select Year Range (Release):", int(df["release_year"].min()), int(df["release_year"].max()), (2010, 2020))
 
-    st.subheader("Distribution: Movies vs TV Shows")
-    fig1 = plot_type_distribution(df)
-    st.pyplot(fig1)
-
-    st.subheader("Trend: Titles Added Over Years")
-    if 'year_added' in df.columns:
-        fig2 = plot_year_added_trend(df)
-        st.pyplot(fig2)
-    else:
-        st.write("No `year_added` column found.")
 
 if __name__ == "__main__":
     main()
