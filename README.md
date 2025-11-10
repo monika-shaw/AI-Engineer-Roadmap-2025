@@ -25,6 +25,7 @@
 |  | 🧰 Concepts: Scalars, Vectors, Matrices, and Tensors |
 |  | Operations: Matrix addition, multiplication, transpose, and inverse|
 |  | 🚦 Mini-Project:<br>- Visualize vector and matrix operations using NumPy & Matplotlib |
+| 🎛️ **Day 5** |
 
 
 ***
