@@ -50,8 +50,17 @@ Week-1-Python-for-AI/
 │   ├── Pandas Data Cleaning
 │   ├── Data Visualization (Matplotlib & Seaborn)
 │   └── Mini-Project: Netflix Dashboard
-└── Day-3/
-    ├── Sidebar Filters & Widgets
-    ├── Advanced Seaborn Visualizations
-    └── Mini-Project: Enhanced Netflix Dashboard
+├── Day-3/
+│   ├── Sidebar Filters & Widgets
+│   ├── Advanced Seaborn Visualizations
+│   └── Mini-Project: Enhanced Netflix Dashboard
+├── Day-4/
+│   ├── Linear Algebra Concepts (Scalars, Vectors, Matrices, Tensors)
+│   ├── Matrix Operations (Addition, Multiplication, Transpose, Inverse)
+│   └── Mini-Project: Vector & Matrix Visualization (NumPy & Matplotlib)
+└── Day-5/
+    ├── Calculus Basics (Derivatives & Gradients)
+    ├── Gradient Descent Implementation
+    └── Mini-Project: Function Optimization Visualization (Matplotlib)
+
     
