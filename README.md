@@ -25,7 +25,11 @@
 |  | 🧰 Concepts: Scalars, Vectors, Matrices, and Tensors |
 |  | Operations: Matrix addition, multiplication, transpose, and inverse|
 |  | 🚦 Mini-Project:<br>- Visualize vector and matrix operations using NumPy & Matplotlib |
-| 🎛️ **Day 5** |
+| 🎛️ **Day 5** | 🧮 Focus: Calculus for AI — Gradients & Optimization |
+|  | 🧰 Concepts: Derivatives, Gradients, and Gradient Descent |
+|  | Operations: Computing derivatives, updating parameters using Gradient Descent |
+|  | 🚦 Mini-Project:<br>- Implement Gradient Descent in Python to find the minimum of f(x) = x² + 5x + 6<br>- Visualize optimization path using Matplotlib |
+
 
 
 ***
@@ -50,3 +54,4 @@ Week-1-Python-for-AI/
     ├── Sidebar Filters & Widgets
     ├── Advanced Seaborn Visualizations
     └── Mini-Project: Enhanced Netflix Dashboard
+    
